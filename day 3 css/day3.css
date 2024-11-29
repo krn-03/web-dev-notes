@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+   color: cornflowerblue;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 19px;
+   padding: 3px;
+   text-align: center;   
+}
+
+p.sevillana-regular {
+    padding: 5px;
+    margin: 10px;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Name {
+    color: rgb(50, 37, 184);
+}
+
+h2 {
+    margin: 22px;
+    padding: 4px;
+    text-align: center;
+    background-color: #b5d0e0;
+}
+
+.leaf {
+    background-color: #b5d0e0;
+    border-radius: 50% 0;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 12px;
+}

@@ -1,0 +1,70 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background-color: #bbb;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+
+}
+
+.child1 {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+
+.child2 {
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+} */
+
+
+/*  PART 2 CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBox {
+    background-color: #bbb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childBox {
+    margin: 19px;
+    padding: auto;
+    background-color: cadetblue;
+    height: 400px;
+    width: 40%;
+}
+
+.text {
+    text-align: center;
+    text-transform: initial;
+    justify-content: center;
+    margin: 19px;
+    padding: 10px;
+    position: relative;
+}
+
+.childBox2 {
+    margin: 19px;
+    padding: auto;
+    background-image: url(ON\ GOD\ Never\ give\ up.jpeg);
+    background-size: cover;
+    background-position: 19%;
+    height: 400px;
+    width: 60%;
+
+    
+}

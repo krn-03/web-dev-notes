@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Sevillana&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    
+</head>
+<body>
+    <div>
+        
+        <h1 class="sevillana-regular">Survay Form</h1>
+        <!-- <h3>Let us know how we can improve freecodeCamp</h3> -->
+        <form action="#" method="post">
+            <p>Name:</p>
+            <input type="text" name="Name" placeholder="name" id="" required>
+            <p>College@Email</p>
+            <input type="email" name="College@Email" placeholder="College@Email" required>
+            <p>Age</p>
+            <input type="number" placeholder="Age" required>
+            <label for="role">Which option best describe your current role>: </label>
+            <br><br>
+            <select name="Choose your role" placeholder="select" id="Choose your role">
+                <option value="SELECT">Select</option>
+                <option value="student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="hod">HOD</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <p>How likely is that you would recommend freecodeCamp to a friend?</p>
+            <input type="radio" name="recommend"> Definitely <br>
+            <input type="radio" name="recommend"> Maybe <br>
+            <input type="radio" name="recommend"> Not sure <br> <br>
+
+            <label for="like"> what do you like most in FCC </label>
+            <br><br>
+
+            <select name="why they like" placeholder="select" id="">
+                <option value="SELECT">Select</option>
+                <option value="student"></option>
+                <option value="Teacher"></option>
+                <option value="hod"></option>
+                <option value="other"></option>
+            </select>
+            <br><br>
+
+            <p>Things that should be improve in the future </p>
+            <input type="checkbox" id="improve1" name="improve" value="front-end" name="recommend">
+            <label for="improve1">Front-end Prooject</label><br>
+            <input type="checkbox" id="improve2" name="vehicle2" value="Car" name="recommend">
+            <label for="improve2"> Back-end Prooject</label><br>
+            <input type="checkbox" id="improve3" name="vehicle3" value="Boat" name="recommend">
+            <label for="improve3"> Data Visualization</label>
+            
+            <br><br>
+
+
+           
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

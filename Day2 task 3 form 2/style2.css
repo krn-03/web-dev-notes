@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 19px;
+    padding: 13px;
+    text-align: justify;
+    display: flex;
+    background-color: rgb(97, 171, 191);
+
+
+}
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: cornflowerblue;
+    background-color: #b8b4be;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: small;
+
+
+}
+
+p {
+    margin: 3px;
+    padding: 5px;
+    text-align: justify;
+
+}

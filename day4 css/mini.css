@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    background-color: cadetblue;
+    margin: 2px;
+    padding: 7px;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    
+}
+
+li:hover  {
+    background-color: #bbb;
+    
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+
+
+
+
